@@ -1,0 +1,37 @@
+.sidebar{
+    background-color: rgb(28, 37, 66);
+    width: 13rem;
+    min-height: calc(100vh - 62px);
+}
+
+.item{
+    border-right: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 3px; 
+}
+
+.title{
+    padding: 10px 15px;
+    font-size: 12px;
+    font-weight: 200;
+    color: antiquewhite;
+}
+
+.listItem{
+    display: flex;
+    color: #dfe1eb;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+
+    &:hover {
+        background-color: #34407c;
+    }
+}
+
+
+
+
