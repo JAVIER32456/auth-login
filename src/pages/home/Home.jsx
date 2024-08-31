@@ -25,6 +25,7 @@ const Home = () => {
         <div className="datatables">
           <Datatables/>
           <Datatables/>
+          <Datatables/>
         </div>
         <div>
           <button type='submit' onClick={handClick}>
